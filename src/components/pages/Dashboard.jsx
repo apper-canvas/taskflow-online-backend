@@ -103,7 +103,7 @@ const Dashboard = () => {
     setEditingTask(null);
   };
 
-  if (loading) {
+if (loading && tasks.length === 0) {
     return <Loading />;
   }
 
@@ -149,7 +149,7 @@ const Dashboard = () => {
       </div>
 
       {/* Task List */}
-      <TaskList
+<TaskList
         tasks={tasks}
         onToggleTask={handleToggleTask}
         onEditTask={handleEditTask}
@@ -157,6 +157,7 @@ const Dashboard = () => {
         filter={activeFilter}
         searchQuery={searchQuery}
         selectedListId={selectedListId}
+        loading={loading}
       />
 
       {/* Task Form Modal */}

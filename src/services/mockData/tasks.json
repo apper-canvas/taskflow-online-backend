@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "title": "Review project proposal",
+    "description": "Go through the Q4 marketing proposal and provide feedback",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2024-12-30T10:00:00Z",
+    "listId": "1",
+    "createdAt": "2024-12-28T08:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Update portfolio website",
+    "description": "Add recent projects and update contact information",
+    "completed": false,
+    "priority": "medium",
+    "dueDate": "2024-12-31T17:00:00Z",
+    "listId": "2",
+    "createdAt": "2024-12-28T09:15:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "title": "Buy groceries",
+    "description": "Milk, bread, eggs, and vegetables for the week",
+    "completed": true,
+    "priority": "low",
+    "dueDate": "2024-12-28T18:00:00Z",
+    "listId": "3",
+    "createdAt": "2024-12-28T06:30:00Z",
+    "completedAt": "2024-12-28T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Prepare presentation slides",
+    "description": "Create slides for the client meeting next week",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2024-12-29T14:00:00Z",
+    "listId": "1",
+    "createdAt": "2024-12-28T10:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Call mom",
+    "description": "Check in and catch up on family news",
+    "completed": false,
+    "priority": "medium",
+    "dueDate": null,
+    "listId": "3",
+    "createdAt": "2024-12-28T11:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "title": "Learn React Router",
+    "description": "Complete the advanced routing tutorial",
+    "completed": false,
+    "priority": "low",
+    "dueDate": "2025-01-05T12:00:00Z",
+    "listId": "2",
+    "createdAt": "2024-12-28T12:00:00Z",
+    "completedAt": null
+  }
+]
